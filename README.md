@@ -1,20 +1,16 @@
 # Cosmetica Auto Zalău — site
 
-Acesta este pachetul publicat automat pe branch `gh-pages`.
+Am inlocuit logo-ul placeholder si am folosit imaginea furnizata de utilizator (link extern). Daca vrei, pot incarca logo-ul local in repo.
 
 Fișiere importante:
-- index.html — pagina principală
-- assets/logo.svg — logo (înlocuiește cu logo-ul tău dacă ai SVG/PNG)
-- assets/og-image.svg — imagine pentru social sharing (SVG)
+- index.html — pagina principală (actualizata sa foloseasca logo-ul extern)
+- assets/og-image.svg — imagine pentru social sharing (foloseste logo-ul extern)
 - assets/favicon.svg, assets/apple-touch-icon.svg — icoane
 - images/ — pune aici pozele "before/after" (before1.jpg, after1.jpg...)
 
-Instrucțiuni rapide:
-1. Dacă vrei să folosești logo-ul original, înlocuiește `assets/logo.svg` cu fișierul tău `logo.svg` sau `logo.png` (actualizează referința din index.html dacă folosești PNG).
-2. Pentru og-image.png (1200x630) convertește og-image.svg în PNG și salvează ca `assets/og-image.png` — utile pentru compatibilitate social.
-3. Site-ul a fost încărcat pe branch `gh-pages`. GitHub Pages servește site-ul din acel branch automat. URL-ul va fi:
-   https://cosmeticaautozalau.github.io/cosmeticaautozalau/
+Site-ul este publicat pe branch `gh-pages` la:
+https://cosmeticaautozalau.github.io/cosmeticaautozalau/
 
-Dacă vrei, pot:
-- Converti SVG-urile în PNG retina și pregăti un ZIP descărcabil.
-- Înlocui logo-ul din repo cu fișierul tău (trimite-mi SVG/PNG) și actualizez OG image.
+Urmatorii pasi recomandati:
+- Daca preferi sa pastrez logo-ul in repo (fara depindenta de link extern), uploadeaza fisierul PNG/SVG in assets/logo.png (sau logo.svg) si iti actualizez referintele.
+- Pot genera og-image.png (1200x630) si favicon.png din SVG daca doresti.
