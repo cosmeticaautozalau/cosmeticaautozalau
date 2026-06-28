@@ -4,7 +4,7 @@ Acesta este pachetul publicat automat pe branch `gh-pages`.
 
 Fișiere importante:
 - index.html — pagina principală
-- assets/logo.svg — un logo vectorial placeholder (înlocuiește cu logo-ul tău dacă ai SVG/PNG)
+- assets/logo.svg — logo (înlocuiește cu logo-ul tău dacă ai SVG/PNG)
 - assets/og-image.svg — imagine pentru social sharing (SVG)
 - assets/favicon.svg, assets/apple-touch-icon.svg — icoane
 - images/ — pune aici pozele "before/after" (before1.jpg, after1.jpg...)
